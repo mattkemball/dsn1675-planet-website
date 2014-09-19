@@ -40,11 +40,9 @@ img {
 .nav a{
     display: block;
     text-decoration: none;
-}
-
-.nav li {
     color: #0074D9;
 }
+
 
 ul {
     
