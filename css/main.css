@@ -85,7 +85,20 @@ header {
     overflow: hidden;
 }
 
-    
+.stats {
+    background-color: #e2e2e2;
+    overflow: hidden;
+}
 
+    
+.planets {
+    background-color: #efefef;
+    overflow: hidden;
+}
+
+.footer {
+    background-color: #ccc;
+    overflow: hidden;
+}
 
     
