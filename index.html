@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <title>planet website</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  
+  <link href="http://fonts.googleapis.com/css?family=Open+Sans:700,400|Merriweather:400italic,400,700" rel="stylesheet">
     <link href="css/grid.css" rel="stylesheet">
     <link href="css/type.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
@@ -19,9 +19,9 @@
         <div class="unit unit-xs-1 unit-s-1 unit-m-1-3 unit-l-1-4 pad-top-half">
             <h1 class="title giga">Mars</h1>
         </div>        
-        <nav role="navigation" id="navigation" class="unit unit-xs-1 unit-s-1 unit-m-2-3 unit-l-3-4 pad-top-half">
+        <nav role="navigation" id="navigation" class="unit unit-xs-1 unit-s-1 unit-m-2-3 unit-l-3-4 pad-top-half brand-family">
             <ul class="nav is;a">
-                <li class="mega gutter"><a href="index.html">Planet</a></li>
+                <li class="mega gutter"><a class="nav-current" href="index.html">Planet</a></li>
                 <li class="mega gutter"><a href="moons.html">Moon</a></li>
                 <li class="mega gutter"><a href="exploration.html">Exploration</a></li>
             </ul>
@@ -54,21 +54,21 @@
     <div class="surface unit unit-s--1 unit-m-1-3 unit-l-1-3">
     <figure>    
      <img src="images/Spirit_Mars_Silica_April_20_2007.jpg" alt="ground">
-        <figcaption>Exposure of silica-rich dust uncovered by the Spirit rover</figcaption>
+        <figcaption class="exposure">Exposure of silica-rich dust uncovered by the Spirit rover</figcaption>
         </figure>
     </div>
     
     <div class="surface unit unit-s-1-2 unit-m-1-3 unit-l-1-3">
     <figure>    
      <img src="images/Mars_Earth_Comparison.jpg" alt="ground">
-        <figcaption>Mars when compaired to Earth.</figcaption>
+        <figcaption class="compare">Mars when compaired to Earth.</figcaption>
         </figure>
     </div>
     
     <div class="surface unit unit-xs-1 unit-s-1-2 unit-m-1-3 unit-l-1-3">
     <figure>    
      <img src="images/800px-734781main_pia16804-full_full.jpg" alt="ground">
-        <figcaption>This Mars rock revealed its bluish-gray interior to Mars Science Laboratory</figcaption>
+        <figcaption class="rock">This Mars rock revealed its bluish-gray interior to Mars Science Laboratory</figcaption>
         </figure>
     </div>
     </div>
@@ -76,7 +76,7 @@
       <div class="unit unit-s-1-2 unit-m-1-2 unit-l-1-2 island push-double">
           <div class="data">
           <h2>Orbital Characteristics</h2>
-            <dl>
+            <dl class="char">
                 <dt class="milli">Aphelion</dt>
                 <dd><data>249.2 million km</data></dd>
                 <dt class="milli">Perihelion</dt>
@@ -94,7 +94,7 @@
       <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2  island push-double">
             <div class="data">
           <h2>Physcial Characteristics</h2>
-            <dl>
+            <dl class="phys">
                 <dt class="milli">Mean radius</dt>
                 <dd class="mega"><data>3389.5±0.2 km</data></dd>
                 <dt class="milli">Mass</dt>

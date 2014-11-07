@@ -9,7 +9,7 @@ html {
   padding: 0;
   box-sizing: border-box;
 
-  font: normal 100%/1.5 sans-serif;
+  
   -moz-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
@@ -100,7 +100,16 @@ img {
     color: #0074D9;
 }
 
-
+.nav a:hover,
+.nav a:focus,
+.nav a:active,
+.nav .nav-current, 
+.nav .nav-current:link,
+.nav .nav-current:visited {
+    background-color: #0074D9;
+    
+    color: #fff;
+}
 
 header {
     background-color: #ccc;
@@ -113,9 +122,10 @@ header {
 }
 
 .intro {
-    background-color: #DCDCDC;
+    background-color: #b22222;
     text-align: center;
     overflow: hidden;
+    
 }
 
 .stats {
@@ -173,6 +183,10 @@ header {
 
 @media only screen and (min-width: 60em) { 
 
+    dl {
+        overflow: hidden;
+    }
+    
 dt {
     float: left;
     clear: left;
@@ -242,3 +256,31 @@ input + label {
 }
 
 
+
+
+.phys { 
+   background-color: #addbe6;
+    padding: 2em;
+    border: 3px solid black;
+}
+
+.char { 
+    background-color: #addbe6;
+    padding: 2em;
+    border: 3px solid black;
+}
+    
+.dia1, 
+.dia2 {
+    background-color: #addbe6;
+    overflow: hidden
+}
+
+.exposure,
+.rock,
+.compare {
+    background-color: #BC8F8F;
+    overflow: hidden;
+    border: 2px solid black;
+}
+    
